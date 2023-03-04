@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function Cadastro() {
 
-  const [nome, setNome] = useState('Maria');
+  const [nome, setNome] = useState('José');
 
 
   return(
