@@ -14,7 +14,7 @@ export default function Cadastro() {
       <form action="">
         <input 
           type="text" 
-          onChange={event => setNome(e.target.value)}
+          onChange={event => setNome(event.target.value)}
           value={nome}
           />
       </form>
